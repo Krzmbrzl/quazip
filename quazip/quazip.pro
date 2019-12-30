@@ -2,6 +2,10 @@ TEMPLATE = lib
 CONFIG += qt warn_on
 QT -= gui
 
+!CONFIG(quazip-no-static) {
+	CONFIG *= staticlib
+}
+
 # Creating pkgconfig .pc file
 CONFIG += create_prl no_install_prl create_pc
 
