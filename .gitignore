@@ -1,1 +1,15 @@
 /doc
+
+Makefile
+*.o
+.moc/
+libquazip.*
+
+quazip/pkgconfig
+
+qztest/qztest
+qztest/dos.zip
+qztest/newtimes.zip
+qztest/qrc_qztest.cpp
+qztest/tmp
+qztest/unix.zip
